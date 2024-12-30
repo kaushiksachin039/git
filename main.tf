@@ -20,4 +20,4 @@ resource "azurerm_storage_container" "monday" {
   depends_on            = [azurerm_storage_account.sunday]
 
 
-}
+}.
